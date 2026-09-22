@@ -1,0 +1,3982 @@
+{
+  "years": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031
+  ],
+  "items": [
+    {
+      "id": "ehds-european-health-data-space",
+      "name": "EHDS (European Health Data Space)",
+      "cluster": "Europese & landelijke kaders",
+      "concrete": "EHDS",
+      "weight": "rood",
+      "attention": "Europese koers en implementatie",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Wegiz",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Wegiz",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "European Patient Summary",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "EU Patient Summary",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "ePrescription / eDispensation",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "ePrescription",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Secundair datagebruik",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "secundair gebruik",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "certificering",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Wegiz",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "Wegiz",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "European Patient Summary",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "EU Patient Summary",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Secundair datagebruik",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "secundair gebruik",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "certificering",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Europese Commissie",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "A",
+      "owner": "VWS / Europese Commissie",
+      "status": "Wettelijke planning",
+      "validation": "Nee",
+      "sectors": "Alle",
+      "suppliers": "Alle XIS/EPD/PGO",
+      "milestoneYear": 2029,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "toestemming-opt-out",
+      "name": "Toestemming / Opt-out",
+      "cluster": "Europese & landelijke kaders",
+      "concrete": "Mitz ?",
+      "weight": "rood",
+      "attention": "Juridische duidelijkheid en maatschappelijke acceptatie",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Toestemming / Mitz",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Mitz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "AVG",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Wegiz",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Wegiz",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "GVvZ",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "A/B",
+      "owner": "VWS",
+      "status": "Beleidsontwikkeling",
+      "validation": "Relatie EHDS/Mitz",
+      "sectors": "Alle",
+      "suppliers": "XIS, EPD, PGO",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "wegiz",
+      "name": "Wegiz",
+      "cluster": "Europese & landelijke kaders",
+      "concrete": "Wegiz uitwisselingen",
+      "weight": "rood",
+      "attention": "Nationale prioritering",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Informatiestandaarden",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "implementatieprogramma's",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "informatiestandaarden",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Generieke voorzieningen",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "sectoren",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B",
+      "owner": "VWS",
+      "status": "Gefaseerde implementatie",
+      "validation": "Sectorale planning",
+      "sectors": "MSZ, VVT, GGZ, HA, LZ",
+      "suppliers": "XIS/EPD",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "iza-azwa",
+      "name": "IZA / AZWA",
+      "cluster": "Europese & landelijke kaders",
+      "concrete": "IZA / AZWA werkagenda",
+      "weight": "oranje",
+      "attention": "Bestuurlijke afspraken",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "○",
+        "implementatie": "●",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Sectorale programma's",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "financiering",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Beleidsagenda's",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "zorgkoepels",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "○",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "M",
+      "certainty": "B",
+      "owner": "VWS",
+      "status": "Doorlopend",
+      "validation": "Prioriteiten",
+      "sectors": "Alle",
+      "suppliers": "Indirect",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "gisa-nationale-visie-gis",
+      "name": "GISA / Nationale Visie GIS",
+      "cluster": "Europese & landelijke kaders",
+      "concrete": "GISA",
+      "weight": "rood",
+      "attention": "Architectuur en samenhang",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "○",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Landelijk Afsprakenstelsel (LAS)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "LAS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Landelijk Dekkend Netwerk (LDN)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "LDN",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Generieke functies",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "DTO",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Architectuurprincipes",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Landelijk Afsprakenstelsel (LAS)",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "LAS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Landelijk Dekkend Netwerk (LDN)",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "LDN",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Architectuurraad",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "○",
+        "2029": "○",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "VWS / Nictiz",
+      "status": "Architectuurontwikkeling",
+      "validation": "Doorwerking naar programma's",
+      "sectors": "Alle",
+      "suppliers": "Indirect",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "nen-7510-7512-7513",
+      "name": "NEN 7510/7512/7513",
+      "cluster": "Informatiebeveiliging & privacy",
+      "concrete": "NEN7510/7512/7513",
+      "weight": "rood",
+      "attention": "Compliance",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Leveranciers",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "certificering",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Normenkaders",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Securityvoorzieningen",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Zorginstellingen",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "M",
+      "certainty": "B",
+      "owner": "NEN / VWS",
+      "status": "Doorlopend",
+      "validation": "Nee",
+      "sectors": "Alle",
+      "suppliers": "Alle leveranciers",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "nis2-cer",
+      "name": "NIS2 / CER",
+      "cluster": "Informatiebeveiliging & privacy",
+      "concrete": "NIS2 / CER",
+      "weight": "rood",
+      "attention": "Continuïteit en cyberweerbaarheid",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Informatiebeveiliging",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "zorginstellingen",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Cyberbeleid",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Netwerkbeveiliging",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Zorginstellingen",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "○",
+        "2029": "○",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "A/B",
+      "owner": "VWS / NCSC",
+      "status": "Wettelijke implementatie",
+      "validation": "Nee",
+      "sectors": "Alle",
+      "suppliers": "Alle leveranciers",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "toestemming-mitz",
+      "name": "Toestemming / Mitz",
+      "cluster": "Generieke voorzieningen",
+      "concrete": "Mitz",
+      "weight": "rood",
+      "attention": "Kritische randvoorwaarde",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Beeldbeschikbaarheid",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Beeldbeschikbaarheid",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Medicatieoverdracht",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Medicatieoverdracht",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "European Patient Summary",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "EU Patient Summary",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "PGO's",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Wegiz",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Wegiz",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "AVG",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Wegiz",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "Wegiz",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "IAM",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Authenticatie",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "authenticatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "VZVZ",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "zorgaanbieders",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "○",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B",
+      "owner": "VZVZ / VWS",
+      "status": "Uitrol",
+      "validation": "Planning leveranciers",
+      "sectors": "Alle",
+      "suppliers": "XIS, EPD, PGO",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "autorisatie",
+      "name": "Autorisatie",
+      "cluster": "Generieke voorzieningen",
+      "concrete": "Landelijk autorisatiemodel",
+      "weight": "rood",
+      "attention": "Uniform toegangsmodel",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Identificatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Identificatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Toestemming / Mitz",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Mitz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Landelijk Afsprakenstelsel (LAS)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "LAS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Autorisatiebeleid",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "IAM",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Toestemming / Mitz",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "Mitz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Verkenning",
+      "validation": "Governance en planning",
+      "sectors": "Alle",
+      "suppliers": "IAM-, XIS-, infrastructuurleveranciers",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "identificatie",
+      "name": "Identificatie",
+      "cluster": "Generieke voorzieningen",
+      "concrete": "UZI / eID",
+      "weight": "rood",
+      "attention": "Fundament van vertrouwen",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Autorisatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Autorisatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Authenticatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Authenticatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Identiteitsafspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "IAM",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Beheerorganisatie",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "H",
+      "certainty": "B/C",
+      "owner": "VWS",
+      "status": "Doorontwikkeling",
+      "validation": "Koppeling EHDS",
+      "sectors": "Alle",
+      "suppliers": "XIS / IAM",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "authenticatie",
+      "name": "Authenticatie",
+      "cluster": "Generieke voorzieningen",
+      "concrete": "Authenticatievoorziening",
+      "weight": "oranje",
+      "attention": "Veiligheid",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Identificatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Identificatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "eID",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Vertrouwensmodel",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "eID",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "H",
+      "certainty": "B/C",
+      "owner": "VWS",
+      "status": "Doorontwikkeling",
+      "validation": "Idem",
+      "sectors": "Alle",
+      "suppliers": "IAM / leveranciers",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "lokalisatie",
+      "name": "Lokalisatie ",
+      "cluster": "Generieke voorzieningen",
+      "concrete": "NVI / Mitz",
+      "weight": "rood",
+      "attention": "Vindbaarheid en routering",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Landelijk Dekkend Netwerk (LDN)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "LDN",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Beeldbeschikbaarheid",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Beeldbeschikbaarheid",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Verwijsinformatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Verwijsinformatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Vindbaarheidsafspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Landelijk Dekkend Netwerk (LDN)",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "LDN",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "RSO's",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "beheerorganisatie",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "H",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Ontwikkeling",
+      "validation": "Eigenaarschap",
+      "sectors": "Alle",
+      "suppliers": "Infrastructuur",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "adressering",
+      "name": "Adressering",
+      "cluster": "Generieke voorzieningen",
+      "concrete": "Adresseringsvoorziening / Zorg AB",
+      "weight": "rood",
+      "attention": "Uniforme adressering van zorgaanbieders en voorzieningen",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Zorgadresboek / NRZA",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Landelijke afspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Adresseringsvoorziening",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "API's",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "VZVZ",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "beheerorganisatie",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "H",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Ontwikkeling",
+      "validation": "Eigenaarschap",
+      "sectors": "Alle",
+      "suppliers": "Infrastructuur",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "logging-auditing",
+      "name": "Logging & auditing",
+      "cluster": "Generieke voorzieningen",
+      "concrete": "Logging",
+      "weight": "rood",
+      "attention": "Voldoen aan AVG, NEN7513 en EHDS",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "○",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Authenticatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Authenticatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Autorisatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Autorisatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "AVG",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "NEN7513",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Loggingvoorzieningen",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "auditservices",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Zorgaanbieders",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "A/B",
+      "owner": "Leveranciers / VWS",
+      "status": "Doorontwikkeling",
+      "validation": "Scope EHDS",
+      "sectors": "Alle",
+      "suppliers": "XIS / EPD",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "medicatieoverdracht",
+      "name": "Medicatieoverdracht",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "Medicatieoverdracht",
+      "weight": "rood",
+      "attention": "Capaciteit en landelijke uitrol",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Toestemming / Mitz",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Mitz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "BGZ",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "BGZ",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "leveranciers",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Autorisatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "autorisatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "BGZ",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "BGZ",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "ZIB Medicatie",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Toestemming / Mitz",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "Mitz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Programma MO",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B",
+      "owner": "VWS-programma",
+      "status": "Implementatie",
+      "validation": "Planning sectoren",
+      "sectors": "MSZ, HA, Apotheken, VVT",
+      "suppliers": "XIS",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "eoverdracht",
+      "name": "eOverdracht",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "eOverdracht",
+      "weight": "oranje",
+      "attention": "Opschaling",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "BGZ",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "BGZ",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "leveranciers",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "BGZ",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "BGZ",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "VVT",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B",
+      "owner": "VWS-programma",
+      "status": "Implementatie",
+      "validation": "Planning sectoren",
+      "sectors": "MSZ, HA, Apotheken, VVT",
+      "suppliers": "XIS",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "beeldbeschikbaarheid",
+      "name": "Beeldbeschikbaarheid",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "Beeldbeschikbaarheid",
+      "weight": "oranje",
+      "attention": "Landelijke implementatie",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Toestemming / Mitz",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Mitz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Lokalisatie ",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Lokalisatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Landelijk Dekkend Netwerk (LDN)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "LDN",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Twiin",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "IHE-afspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Landelijk Dekkend Netwerk (LDN)",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "LDN",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Toestemming / Mitz",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "Mitz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Programma BB",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "ziekenhuizen",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B",
+      "owner": "Programma Beeldbeschikbaarheid",
+      "status": "Implementatie",
+      "validation": "LBT/DUO",
+      "sectors": "MSZ",
+      "suppliers": "PACS/EPD",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "european-patient-summary",
+      "name": "European Patient Summary",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "European Patient Summary",
+      "weight": "rood",
+      "attention": "Europese implementatie",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "BGZ",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "BGZ",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "SNOMED CT",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "SNOMED",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Toestemming / Mitz",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Mitz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "BGZ",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "BGZ",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "SNOMED CT",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "SNOMED",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Toestemming / Mitz",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "Mitz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "A",
+      "owner": "VWS / Nictiz",
+      "status": "Voorbereiding",
+      "validation": "EHDS-planning",
+      "sectors": "Alle",
+      "suppliers": "XIS",
+      "milestoneYear": 2029,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "eprescription-edispensation",
+      "name": "ePrescription / eDispensation",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "ePrescription / eDispensation",
+      "weight": "rood",
+      "attention": "Europese implementatie",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Medicatieoverdracht",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Medicatieoverdracht",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Medicatiestandaarden",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Toestemming / Mitz",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "Mitz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Farmacie",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "A",
+      "owner": "VWS",
+      "status": "Voorbereiding",
+      "validation": "Sectorplanning",
+      "sectors": "HA, Apotheken, MSZ",
+      "suppliers": "AIS/HIS/EPD",
+      "milestoneYear": 2029,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "ontslaginformatie",
+      "name": "Ontslaginformatie",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "Discharge Reports",
+      "weight": "oranje",
+      "attention": "Europese prioritaire gegevensuitwisseling",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "European Patient Summary",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "European Patient Summary",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "○",
+        "2028": "○",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "A",
+      "owner": "VWS",
+      "status": "Voorbereiding",
+      "validation": "Europese planning",
+      "sectors": "MSZ",
+      "suppliers": "EPD",
+      "milestoneYear": 2031,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "diagnostische-gegevens",
+      "name": "Diagnostische gegevens",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "Medical Test Results",
+      "weight": "oranje",
+      "attention": "Europese prioritaire gegevensuitwisseling",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "BGZ",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "BGZ",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "laboratoriumgegevens",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "BGZ",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "BGZ",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "LOINC",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "LOINC",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "laboratoria",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "○",
+        "2028": "○",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "A",
+      "owner": "VWS",
+      "status": "Voorbereiding",
+      "validation": "Europese planning",
+      "sectors": "Alle",
+      "suppliers": "LIS/EPD",
+      "milestoneYear": 2031,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "medische-beelden",
+      "name": "Medische beelden",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "Medical Imaging",
+      "weight": "oranje",
+      "attention": "Europese prioritaire gegevensuitwisseling",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Beeldbeschikbaarheid",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Beeldbeschikbaarheid",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "IHE-profielen",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "DICOM",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "ziekenhuizen",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "○",
+        "2028": "○",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "A",
+      "owner": "VWS",
+      "status": "Voorbereiding",
+      "validation": "Europese planning",
+      "sectors": "MSZ",
+      "suppliers": "PACS/VNA",
+      "milestoneYear": 2031,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "laboratoriumuitwisseling",
+      "name": "Laboratoriumuitwisseling",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "Laboratoriumuitwisseling",
+      "weight": "oranje",
+      "attention": "Harmonisatie",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "LOINC",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "LOINC",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "LOINC",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "LOINC",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Laboratoria",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B/C",
+      "owner": "Nictiz (?)",
+      "status": "Doorontwikkeling",
+      "validation": "Samenhang LOINC",
+      "sectors": "Alle",
+      "suppliers": "LIS",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "verwijsinformatie",
+      "name": "Verwijsinformatie",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "Verwijsinformatie",
+      "weight": "geel",
+      "attention": "Regionale samenwerking",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Zorgadresboek",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Identificatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Identificatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Verwijsafspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Zorgadresboek",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Regio's",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "○",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "H",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Verkenning",
+      "validation": "Roadmaps",
+      "sectors": "HA, MSZ",
+      "suppliers": "HIS/EPD",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "mdo-netwerkzorg",
+      "name": "MDO / Netwerkzorg",
+      "cluster": "Gegevensuitwisseling",
+      "concrete": "MDO / Netwerkzorg",
+      "weight": "geel",
+      "attention": "Integrale zorg",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "○",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Identificatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Identificatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Autorisatie",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Autorisatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "PGO",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Gegevensafspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Autorisatie",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "Autorisatie",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Zorgnetwerken",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "IZA",
+      "status": "Verkenning",
+      "validation": "Prioritering",
+      "sectors": "Alle",
+      "suppliers": "XIS",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "bgz",
+      "name": "BGZ",
+      "cluster": "Semantiek & istandaarden",
+      "concrete": "BGZ",
+      "weight": "rood",
+      "attention": "Harmonisatie",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "European Patient Summary",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "EU Patient Summary",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "eOverdracht",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "eOverdracht",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Medicatieoverdracht",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Medicatieoverdracht",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "ZIB's",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "ZIB's",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "ZIB's",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "ZIB's",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "European Patient Summary",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "EU Patient Summary",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B",
+      "owner": "Nictiz",
+      "status": "Doorontwikkeling",
+      "validation": "Relatie EHDS",
+      "sectors": "Alle",
+      "suppliers": "XIS",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "zib-s",
+      "name": "ZIB's",
+      "cluster": "Semantiek & istandaarden",
+      "concrete": "ZIB's",
+      "weight": "rood",
+      "attention": "Uniformiteit",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "BGZ",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "BGZ",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "SNOMED CT",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "SNOMED",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "BGZ",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "BGZ",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "SNOMED CT",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "SNOMED",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "–",
+        "2028": "–",
+        "2029": "–",
+        "2030": "–",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "Nictiz",
+      "status": "Doorontwikkeling",
+      "validation": "Nee",
+      "sectors": "Alle",
+      "suppliers": "XIS",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": false,
+        "governanceSourceBacked": true,
+        "scoreEligible": false,
+        "status": "onvoldoende-bronbasis"
+      }
+    },
+    {
+      "id": "snomed-ct",
+      "name": "SNOMED CT",
+      "cluster": "Semantiek & istandaarden",
+      "concrete": "SNOMED CT",
+      "weight": "rood",
+      "attention": "Semantische interoperabiliteit",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "ZIB's",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "ZIB's",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "European Patient Summary",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "EU Patient Summary",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Terminologiebeleid",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Terminologieserver",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "H",
+      "certainty": "B",
+      "owner": "Nictiz",
+      "status": "Doorontwikkeling",
+      "validation": "Nee",
+      "sectors": "Alle",
+      "suppliers": "XIS",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "loinc",
+      "name": "LOINC",
+      "cluster": "Semantiek & istandaarden",
+      "concrete": "LOINC",
+      "weight": "rood",
+      "attention": "Semantische interoperabiliteit",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Laboratoriumuitwisseling",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Laboratoriumuitwisseling",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Labterminologie",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Terminologieserver",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Laboratoria",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B",
+      "owner": "Nictiz",
+      "status": "Opschaling",
+      "validation": "Implementatieprogramma",
+      "sectors": "Alle",
+      "suppliers": "LIS",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "fhir-profielen",
+      "name": "FHIR-profielen",
+      "cluster": "Semantiek & istandaarden",
+      "concrete": "FHIR-profielen",
+      "weight": "rood",
+      "attention": "Technische standaardisatie",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Vrijwel alle gegevensuitwisselingen",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "HL7-afspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "API's",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "validatie",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "H",
+      "certainty": "B",
+      "owner": "Nictiz",
+      "status": "Doorontwikkeling",
+      "validation": "Nee",
+      "sectors": "Alle",
+      "suppliers": "Leveranciers",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "data-integratieplatform",
+      "name": "Data- & integratieplatform",
+      "cluster": "Basisvoorzieningen & infrastructuur",
+      "concrete": "Cumuluz",
+      "weight": "rood",
+      "attention": "Landelijke positionering, samenhang met GISA en LDN",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "○",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Landelijk Dekkend Netwerk (LDN)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "LDN",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Landelijk Afsprakenstelsel (LAS)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "LAS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Generieke voorzieningen",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "GISA",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "EHDS (European Health Data Space)",
+          "type": "inhoudelijk",
+          "validated": true,
+          "originalTarget": "EHDS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Landelijk Dekkend Netwerk (LDN)",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "LDN",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "API's",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "integratieplatform",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Data- & integratieplatform",
+          "type": "organisatorisch",
+          "validated": true,
+          "originalTarget": "Cumuluz",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "zorgaanbieders",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B/C",
+      "owner": "Cumuluz",
+      "status": "Ontwikkeling",
+      "validation": "Roadmap Cumuluz",
+      "sectors": "Alle",
+      "suppliers": "Platformleveranciers",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "landelijk-afsprakenstelsel-las",
+      "name": "Landelijk Afsprakenstelsel (LAS)",
+      "cluster": "Basisvoorzieningen & infrastructuur",
+      "concrete": "Landelijk Afsprakenstelsel",
+      "weight": "rood",
+      "attention": "Stelselgovernance",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Generieke functies",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "validatie",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "standaarden",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Architectuur",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "standaarden",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Validatievoorzieningen",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Stelselhouder",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "H",
+      "certainty": "B/C",
+      "owner": "VWS / Twiin",
+      "status": "Transitie",
+      "validation": "Governance",
+      "sectors": "Alle",
+      "suppliers": "Dienstverleners",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "landelijk-dekkend-netwerk-ldn",
+      "name": "Landelijk Dekkend Netwerk (LDN)",
+      "cluster": "Basisvoorzieningen & infrastructuur",
+      "concrete": "Landelijk Dekkend Netwerk",
+      "weight": "rood",
+      "attention": "Infrastructuur",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Beeldbeschikbaarheid",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "Beeldbeschikbaarheid",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "Zorgadresboek",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "regio's",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Netwerkafspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Netwerkdiensten",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "RSO's",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B/C",
+      "owner": "VWS / Nictiz (?)",
+      "status": "Ontwikkeling",
+      "validation": "Roadmap",
+      "sectors": "Alle",
+      "suppliers": "Infrastructuur",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "medische-gegevensomgeving",
+      "name": "Medische gegevensomgeving",
+      "cluster": "Regie voor burgers",
+      "concrete": "MGO",
+      "weight": "oranje",
+      "attention": "Ontsluiting van patiëntgegevens voor burger en professional",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "○",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Persoonlijke gezondheidsomgeving",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "MedMij",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Toestemming",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "MedMij-afspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Persoonlijke gezondheidsomgeving",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "MedMij",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "FHIR-profielen",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "FHIR",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Persoonlijke gezondheidsomgeving",
+          "type": "organisatorisch",
+          "validated": true,
+          "originalTarget": "MedMij",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "○",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "B/C",
+      "owner": "VWS",
+      "status": "Doorontwikkeling",
+      "validation": "Relatie EHDS",
+      "sectors": "Alle",
+      "suppliers": "iRealisatie",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "persoonlijke-gezondheidsomgeving",
+      "name": "Persoonlijke gezondheidsomgeving",
+      "cluster": "Regie voor burgers",
+      "concrete": "MedMij",
+      "weight": "oranje",
+      "attention": "Implementatie van PGO-stelsel",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "○",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Medische gegevensomgeving",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "MGO",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "Toestemming",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "MedMij-afspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "MedMij-services",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Persoonlijke gezondheidsomgeving",
+          "type": "organisatorisch",
+          "validated": true,
+          "originalTarget": "MedMij",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "○",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "H",
+      "certainty": "B",
+      "owner": "MedMij",
+      "status": "Doorontwikkeling",
+      "validation": "Adoptie",
+      "sectors": "Burgers / alle sectoren",
+      "suppliers": "PGO-leveranciers",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "secundair-datagebruik",
+      "name": "Secundair datagebruik",
+      "cluster": "Secundair datagebruik",
+      "concrete": "HDAB",
+      "weight": "oranje",
+      "attention": "Landelijke beschikbaarheid van gezondheidsdata voor secundair gebruik",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "○",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Health-RI",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "EHDS secundair gebruik",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Data- & integratieplatform",
+          "type": "technisch",
+          "validated": true,
+          "originalTarget": "Data- & integratieplatform",
+          "resolved": true,
+          "validationStatus": "brongetrouw-genormaliseerd"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Health-RI",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "●",
+        "2027": "●",
+        "2028": "●",
+        "2029": "●",
+        "2030": "●",
+        "2031": "–"
+      },
+      "impactCare": "H",
+      "impactSupplier": "H",
+      "certainty": "A/B",
+      "owner": "VWS / Health-RI",
+      "status": "Ontwikkeling",
+      "validation": "EHDS-planning",
+      "sectors": "Alle",
+      "suppliers": "Data-platformen",
+      "milestoneYear": 2029,
+      "dataQuality": {
+        "implementationSourceBacked": true,
+        "governanceSourceBacked": true,
+        "scoreEligible": true,
+        "status": "gevalideerde-bronkoppeling"
+      }
+    },
+    {
+      "id": "leveranciersplanning",
+      "name": "Leveranciersplanning",
+      "cluster": "Implementatie & adoptie",
+      "concrete": "Leveranciersplanning",
+      "weight": "rood",
+      "attention": "Capaciteitsmanagement",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "○",
+        "implementatie": "●",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Vrijwel alle programma's",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Roadmaps",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Releaseplanning",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Leveranciers",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "–",
+        "2028": "–",
+        "2029": "–",
+        "2030": "–",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Te valideren",
+      "validation": "",
+      "sectors": "",
+      "suppliers": "",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": false,
+        "governanceSourceBacked": false,
+        "scoreEligible": false,
+        "status": "onvoldoende-bronbasis"
+      }
+    },
+    {
+      "id": "implementatiecapaciteit",
+      "name": "Implementatiecapaciteit",
+      "cluster": "Implementatie & adoptie",
+      "concrete": "Capaciteitsplanning",
+      "weight": "rood",
+      "attention": "Prioritering",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "○",
+        "implementatie": "●",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Zorgaanbieders",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "regio's",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Zorgaanbieders",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "regio's",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "–",
+        "2028": "–",
+        "2029": "–",
+        "2030": "–",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Te valideren",
+      "validation": "",
+      "sectors": "",
+      "suppliers": "",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": false,
+        "governanceSourceBacked": false,
+        "scoreEligible": false,
+        "status": "onvoldoende-bronbasis"
+      }
+    },
+    {
+      "id": "testen-validatie",
+      "name": "Testen & validatie",
+      "cluster": "Implementatie & adoptie",
+      "concrete": "Testen & validatie",
+      "weight": "rood",
+      "attention": "Kwaliteitsborging",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Landelijk Afsprakenstelsel (LAS)",
+          "type": "algemeen",
+          "validated": false,
+          "originalTarget": "LAS",
+          "resolved": true,
+          "validationStatus": "te-valideren"
+        },
+        {
+          "target": "leveranciers",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Afsprakenstelsel",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Testvoorzieningen",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "–",
+        "2028": "–",
+        "2029": "–",
+        "2030": "–",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Te valideren",
+      "validation": "",
+      "sectors": "",
+      "suppliers": "",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": false,
+        "governanceSourceBacked": false,
+        "scoreEligible": false,
+        "status": "onvoldoende-bronbasis"
+      }
+    },
+    {
+      "id": "adoptieprogramma-s",
+      "name": "Adoptieprogramma's",
+      "cluster": "Implementatie & adoptie",
+      "concrete": "Implementatieprogramma's",
+      "weight": "oranje",
+      "attention": "Gebruik en verandermanagement",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "○",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Sectoren",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "leveranciers",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Sectorale afspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Programmaorganisaties",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "–",
+        "2028": "–",
+        "2029": "–",
+        "2030": "–",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Te valideren",
+      "validation": "",
+      "sectors": "",
+      "suppliers": "",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": false,
+        "governanceSourceBacked": false,
+        "scoreEligible": false,
+        "status": "onvoldoende-bronbasis"
+      }
+    },
+    {
+      "id": "portfolio-overzicht",
+      "name": "Portfolio-overzicht",
+      "cluster": "Governance & sturing",
+      "concrete": "Portfolio-overzicht",
+      "weight": "rood",
+      "attention": "Bestuurlijk overzicht",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Alle programma's",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Portfolioregels",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Dashboard",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "DTO",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "–",
+        "2028": "–",
+        "2029": "–",
+        "2030": "–",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Te valideren",
+      "validation": "",
+      "sectors": "",
+      "suppliers": "",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": false,
+        "governanceSourceBacked": false,
+        "scoreEligible": false,
+        "status": "onvoldoende-bronbasis"
+      }
+    },
+    {
+      "id": "afhankelijkhedenmanagement",
+      "name": "Afhankelijkhedenmanagement",
+      "cluster": "Governance & sturing",
+      "concrete": "Afhankelijkhedenmanagement",
+      "weight": "rood",
+      "attention": "Intersectorale sturing",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "●",
+        "implementatie": "●",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Alle bouwstenen en programma's",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Architectuur",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Dashboard",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "DTO",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Nictiz",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "–",
+        "2028": "–",
+        "2029": "–",
+        "2030": "–",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Te valideren",
+      "validation": "",
+      "sectors": "",
+      "suppliers": "",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": false,
+        "governanceSourceBacked": false,
+        "scoreEligible": false,
+        "status": "onvoldoende-bronbasis"
+      }
+    },
+    {
+      "id": "monitoring-kpi-s",
+      "name": "Monitoring & KPI's",
+      "cluster": "Governance & sturing",
+      "concrete": "KPI's",
+      "weight": "oranje",
+      "attention": "Voortgangsbewaking",
+      "lifecycle": {
+        "beleid": "○",
+        "realisatie": "○",
+        "implementatie": "●",
+        "beheer": "●"
+      },
+      "relations": [
+        {
+          "target": "Portfolio",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "implementatie",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Prestatie-indicatoren",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Dashboard",
+          "type": "technisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "–",
+        "2028": "–",
+        "2029": "–",
+        "2030": "–",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Te valideren",
+      "validation": "",
+      "sectors": "",
+      "suppliers": "",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": false,
+        "governanceSourceBacked": false,
+        "scoreEligible": false,
+        "status": "onvoldoende-bronbasis"
+      }
+    },
+    {
+      "id": "besluitvorming-dto-ib-vws",
+      "name": "Besluitvorming (DTO / IB / VWS)",
+      "cluster": "Governance & sturing",
+      "concrete": "Governance",
+      "weight": "rood",
+      "attention": "",
+      "lifecycle": {
+        "beleid": "●",
+        "realisatie": "○",
+        "implementatie": "○",
+        "beheer": "○"
+      },
+      "relations": [
+        {
+          "target": "Alle bestuurlijke dossiers",
+          "type": "algemeen",
+          "validated": false,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Governanceafspraken",
+          "type": "inhoudelijk",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "Informatieberaad",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "DTO",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        },
+        {
+          "target": "VWS",
+          "type": "organisatorisch",
+          "validated": true,
+          "resolved": false,
+          "validationStatus": "niet-gekoppeld"
+        }
+      ],
+      "phases": {
+        "2026": "–",
+        "2027": "–",
+        "2028": "–",
+        "2029": "–",
+        "2030": "–",
+        "2031": "–"
+      },
+      "impactCare": "M",
+      "impactSupplier": "M",
+      "certainty": "C",
+      "owner": "Nog te bepalen",
+      "status": "Te valideren",
+      "validation": "",
+      "sectors": "",
+      "suppliers": "",
+      "milestoneYear": null,
+      "dataQuality": {
+        "implementationSourceBacked": false,
+        "governanceSourceBacked": false,
+        "scoreEligible": false,
+        "status": "onvoldoende-bronbasis"
+      }
+    }
+  ],
+  "metadata": {
+    "dataVersion": "2026-09-22",
+    "methodVersion": "0.10-prototype",
+    "source": "260729 - referentiekaart-01.xlsx",
+    "relationCount": 304,
+    "resolvedRelationCount": 117,
+    "scoreEligibleTopics": 35,
+    "disclaimer": "Analytische signalen; geen vastgesteld model van Nictiz, VWS of de Europese Commissie."
+  }
+}
